@@ -1,17 +1,16 @@
-````markdown
 # 📝 Multi-Class Sentiment Analysis using Classical Machine Learning
 
 A comprehensive Natural Language Processing (NLP) project that performs **multi-class sentiment analysis** by comparing multiple text vectorization techniques and machine learning algorithms.
 
 ---
 
-## 📌 Project Overview
+# 📌 Project Overview
 
 This project focuses on classifying text into **6 different sentiment classes** using classical NLP techniques. The objective was not only to build a sentiment classifier but also to compare different feature extraction methods and machine learning models to determine the best-performing pipeline.
 
 ---
 
-## 🚀 Features
+# 🚀 Features
 
 - Text preprocessing
 - Bag of Words (BoW)
@@ -24,13 +23,13 @@ This project focuses on classifying text into **6 different sentiment classes** 
 
 ---
 
-## 📂 Dataset
+# 📂 Dataset
 
 The dataset contains text samples belonging to **6 sentiment classes**.
 
 Example workflow:
 
-```
+
 Raw Text
       ↓
 Text Cleaning
@@ -40,11 +39,11 @@ Feature Extraction
 Machine Learning Model
       ↓
 Prediction
-```
+
 
 ---
 
-## 🛠 Text Preprocessing
+# 🛠 Text Preprocessing
 
 The following preprocessing steps were performed:
 
@@ -58,19 +57,19 @@ The following preprocessing steps were performed:
 
 ---
 
-## 📊 Feature Extraction Techniques
+# 📊 Feature Extraction Techniques
 
-### 1. Bag of Words (BoW)
+## 1. Bag of Words (BoW)
 
 Converts text into numerical vectors based on word frequencies.
 
-### 2. TF-IDF
+## 2. TF-IDF
 
 Calculates the importance of each word based on its frequency within a document and across the corpus.
 
 ---
 
-## 🤖 Machine Learning Models Used
+# 🤖 Machine Learning Models Used
 
 - Multinomial Naive Bayes
 - Logistic Regression
@@ -100,21 +99,20 @@ Calculates the importance of each word based on its frequency within a document 
 
 **Model:** SGD Classifier
 
-**Accuracy:** **89.66%**
+*Accuracy:** **89.66%**
 
 ### Classification Report
 
-```
+
 Accuracy: 89.66%
 
 Weighted Precision : 0.90
 Weighted Recall    : 0.90
 Weighted F1 Score  : 0.90
-```
 
 ---
 
-## 📊 Libraries Used
+# 📊 Libraries Used
 
 - Python
 - NumPy
@@ -126,9 +124,9 @@ Weighted F1 Score  : 0.90
 
 ---
 
-## 📁 Project Structure
+# 📁 Project Structure
 
-```
+
 Sentiment-Analysis/
 │
 ├── dataset/
@@ -137,13 +135,12 @@ Sentiment-Analysis/
 ├── README.md
 ├── requirements.txt
 └── sentiment_analysis.ipynb
-```
+
 
 ---
 
-## 📌 Workflow
+# 📌 Workflow
 
-```
 Dataset
    │
    ▼
@@ -163,11 +160,11 @@ Evaluation
    │
    ▼
 Model Comparison
-```
+
 
 ---
 
-## 📈 Evaluation Metrics
+# 📈 Evaluation Metrics
 
 - Accuracy
 - Precision
@@ -177,7 +174,7 @@ Model Comparison
 
 ---
 
-## 💡 Key Learnings
+# 💡 Key Learnings
 
 - Compared Bag of Words and TF-IDF representations.
 - Evaluated multiple classical machine learning algorithms.
@@ -187,7 +184,7 @@ Model Comparison
 
 ---
 
-## 🔮 Future Improvements
+# 🔮 Future Improvements
 
 - Word Embeddings (Word2Vec, GloVe, FastText)
 - LSTM-based Sentiment Analysis
@@ -198,7 +195,7 @@ Model Comparison
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
 **Shaurya Kumar**
 
